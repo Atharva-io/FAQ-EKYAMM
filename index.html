@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ | Ekyamm</title>
+  <meta name="description" content="Frequently asked questions about Ekyamm — the zero-cost clinical partner integrating emotional well-being into fertility treatment.">
+  <meta name="theme-color" content="#B0A3F2">
+  <link rel="icon" href="assets/logo-icon.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════ -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/logo-icon.png" alt="Ekyamm Logo" style="height: 32px; width: auto; border-radius: 6px;">
+        <span class="nav-logo-text brand-text">ekyamm</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="../EKYAMM/index.html" class="nav-link">Home</a>
+        <a href="index.html" class="nav-link active">FAQ</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="mailto:partnerships@ekyamm.com" class="nav-cta">Contact Us</a>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav">
+      <a href="../EKYAMM/index.html">Home</a>
+      <a href="index.html" class="active">FAQ</a>
+      <a href="../EKYAMM/privacy-policy.html">Privacy Policy</a>
+      <a href="mailto:partnerships@ekyamm.com" class="nav-cta">Contact Us</a>
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════
+       HERO + SEARCH
+       ═══════════════════════════════════════ -->
+  <section class="faq-hero">
+    <div class="container">
+      <h1 class="reveal">Frequently Asked <span class="brand-text">Questions</span></h1>
+      <div class="faq-hero-bar reveal reveal-delay-1"></div>
+      <p class="reveal reveal-delay-2">Everything you need to know about Ekyamm, whether you're a patient exploring fertility care or a clinic considering partnership.</p>
+
+      <div class="faq-search-wrapper reveal reveal-delay-3">
+        <div class="faq-search">
+          <svg class="faq-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+          </svg>
+          <input type="text" id="faqSearch" placeholder="Search questions..." aria-label="Search frequently asked questions">
+          <button class="faq-search-clear" id="searchClear" aria-label="Clear search" hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
+            </svg>
+          </button>
+        </div>
+        <div class="faq-search-count" id="searchCount" aria-live="polite"></div>
+      </div>
+
+      <!-- Audience Tabs -->
+      <div class="faq-tabs-wrapper reveal reveal-delay-4">
+        <div class="faq-tabs" role="tablist" aria-label="Filter by audience">
+          <button class="faq-tab active" role="tab" data-audience="all" aria-selected="true">All</button>
+          <button class="faq-tab" role="tab" data-audience="patient" aria-selected="false">For Patients & Couples</button>
+          <button class="faq-tab" role="tab" data-audience="clinic" aria-selected="false">For Clinic Partners</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       FAQ SECTIONS
+       ═══════════════════════════════════════ -->
+  <div class="faq-sections">
+
+    <!-- ── Category 1: General & About ── -->
+    <section class="faq-category reveal" data-audience="all" id="cat-general">
+      <div class="container">
+        <div class="faq-category-header">
+          <div class="faq-category-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>
+            </svg>
+          </div>
+          <div>
+            <h2>General & About Ekyamm</h2>
+            <p>Learn the basics about who we are and what we do</p>
+          </div>
+        </div>
+
+        <div class="faq-list" role="region">
+          <!-- Q1 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1-1" id="faq-btn-1-1">
+              <span>What is Ekyamm?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-1-1" role="region" aria-labelledby="faq-btn-1-1" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm is a mental wellness platform that empowers fertility treatment plans by seamlessly integrating emotional well-being support into the patient's journey. We partner with clinics to provide guided exercises, mood tracking, and daily check-ins through our mobile app — at zero cost to the clinic.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1-2" id="faq-btn-1-2">
+              <span>Who is behind Ekyamm?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-1-2" role="region" aria-labelledby="faq-btn-1-2" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm is developed by Radicle Minds India Private Limited, based in Navi Mumbai, Maharashtra. Our team includes mental health professionals, fertility specialists, and technology experts dedicated to improving patient outcomes through emotional care.</p>
+                <!-- TODO: expand with founder details and team background -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1-3" id="faq-btn-1-3">
+              <span>How does Ekyamm support fertility patients?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-1-3" role="region" aria-labelledby="faq-btn-1-3" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm works through a simple three-step process:</p>
+                <ul>
+                  <li><strong>Doctor Prescribes:</strong> Your fertility specialist recommends Ekyamm as part of your treatment plan.</li>
+                  <li><strong>Patient Downloads:</strong> You download the Ekyamm app and get access to personalised emotional support tools.</li>
+                  <li><strong>Ongoing Support:</strong> The app provides guided exercises, mood tracking, and daily check-ins throughout your fertility journey.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1-4" id="faq-btn-1-4">
+              <span>Is Ekyamm available outside India?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-1-4" role="region" aria-labelledby="faq-btn-1-4" hidden>
+              <div class="faq-answer-inner">
+                <p>Currently, Ekyamm primarily partners with fertility clinics across India. We are actively exploring expansion to other regions. Please contact us for the latest availability.</p>
+                <!-- TODO: update with expansion plans -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1-5" id="faq-btn-1-5">
+              <span>What awards or recognition has Ekyamm received?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-1-5" role="region" aria-labelledby="faq-btn-1-5" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm has been recognised as the "Mental Health Start-Up of the Year" and is a "Psy Shark Tank Winner." These accolades reflect our commitment to evidence-based emotional care in the fertility space.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── Category 2: Services & How It Works ── -->
+    <section class="faq-category reveal" data-audience="patient" id="cat-services">
+      <div class="container">
+        <div class="faq-category-header">
+          <div class="faq-category-icon icon-coral">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
+          <div>
+            <h2>Services & How It Works</h2>
+            <p>Understand what Ekyamm offers patients and couples</p>
+          </div>
+        </div>
+
+        <div class="faq-list" role="region">
+          <!-- Q1 -->
+          <div class="faq-item" data-audience="patient">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2-1" id="faq-btn-2-1">
+              <span>How do I get started with Ekyamm?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-2-1" role="region" aria-labelledby="faq-btn-2-1" hidden>
+              <div class="faq-answer-inner">
+                <p>Your fertility doctor will prescribe Ekyamm as part of your treatment plan. Once prescribed, simply download the Ekyamm app from the App Store or Google Play, create your account, and begin your personalised emotional wellness program.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item" data-audience="patient">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2-2" id="faq-btn-2-2">
+              <span>What does the Ekyamm app offer?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-2-2" role="region" aria-labelledby="faq-btn-2-2" hidden>
+              <div class="faq-answer-inner">
+                <p>The Ekyamm app provides a comprehensive emotional wellness toolkit including:</p>
+                <ul>
+                  <li>Guided relaxation and mindfulness exercises</li>
+                  <li>Daily mood tracking and emotional check-ins</li>
+                  <li>Personalised coping strategies for fertility-related stress</li>
+                  <li>Progress reports shared with your care team (with your consent)</li>
+                </ul>
+                <!-- TODO: add more specific app features -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item" data-audience="patient">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2-3" id="faq-btn-2-3">
+              <span>Do I need a prescription or referral to use Ekyamm?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-2-3" role="region" aria-labelledby="faq-btn-2-3" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm is designed to be prescribed by your fertility doctor as part of your treatment plan. This ensures the emotional support you receive is coordinated with your medical care. If your clinic partners with Ekyamm, your doctor can prescribe it directly.</p>
+                <!-- TODO: clarify if direct sign-up is available -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item" data-audience="patient">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2-4" id="faq-btn-2-4">
+              <span>Can my partner also use the app?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-2-4" role="region" aria-labelledby="faq-btn-2-4" hidden>
+              <div class="faq-answer-inner">
+                <p>Yes, fertility journeys affect both partners. Ekyamm is designed to support couples through the process together. Please check with your clinic about partner access and any additional features available for couples.</p>
+                <!-- TODO: confirm partner access details -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="faq-item" data-audience="patient">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2-5" id="faq-btn-2-5">
+              <span>How long is a typical program?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-2-5" role="region" aria-labelledby="faq-btn-2-5" hidden>
+              <div class="faq-answer-inner">
+                <p>The program duration is tailored to your treatment journey and can continue throughout your fertility treatment. Your care team will guide the recommended duration based on your individual needs.</p>
+                <!-- TODO: add specific program durations -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── Category 3: For Clinic Partners ── -->
+    <section class="faq-category reveal" data-audience="clinic" id="cat-clinics">
+      <div class="container">
+        <div class="faq-category-header">
+          <div class="faq-category-icon icon-deep">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"/><path d="m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9"/><path d="M12 3v6"/>
+            </svg>
+          </div>
+          <div>
+            <h2>For Clinic Partners</h2>
+            <p>Information for fertility clinics considering Ekyamm partnership</p>
+          </div>
+        </div>
+
+        <div class="faq-list" role="region">
+          <!-- Q1 -->
+          <div class="faq-item" data-audience="clinic">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3-1" id="faq-btn-3-1">
+              <span>How does the clinic partnership work?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-3-1" role="region" aria-labelledby="faq-btn-3-1" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm operates as a zero-cost clinical partner. We integrate our emotional well-being platform into your treatment workflow at no cost and with no infrastructure requirements from your end. Your doctors simply prescribe Ekyamm to patients as part of their fertility treatment plan.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item" data-audience="clinic">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3-2" id="faq-btn-3-2">
+              <span>Is there any cost to the clinic?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-3-2" role="region" aria-labelledby="faq-btn-3-2" hidden>
+              <div class="faq-answer-inner">
+                <p>No. Ekyamm is completely free for partner clinics — zero cost and zero infrastructure requirements. In fact, our revenue-sharing model means clinics can earn additional revenue of 3–30 Lakhs per annum through the partnership.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item" data-audience="clinic">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3-3" id="faq-btn-3-3">
+              <span>What infrastructure does the clinic need to provide?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-3-3" role="region" aria-labelledby="faq-btn-3-3" hidden>
+              <div class="faq-answer-inner">
+                <p>None. Ekyamm requires zero infrastructure from the clinic. Our platform is fully cloud-based, and patients access the app on their own devices. We handle all the technology, support, and operations.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item" data-audience="clinic">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3-4" id="faq-btn-3-4">
+              <span>How does Ekyamm help with ART Act compliance?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-3-4" role="region" aria-labelledby="faq-btn-3-4" hidden>
+              <div class="faq-answer-inner">
+                <p>The ART (Assisted Reproductive Technology) Act mandates that clinics provide counselling support to patients undergoing fertility treatment. Ekyamm helps clinics meet this requirement effortlessly by providing structured, evidence-based emotional support that integrates directly into the treatment workflow.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="faq-item" data-audience="clinic">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3-5" id="faq-btn-3-5">
+              <span>What is the revenue sharing model?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-3-5" role="region" aria-labelledby="faq-btn-3-5" hidden>
+              <div class="faq-answer-inner">
+                <p>Partner clinics can earn between 3–30 Lakhs per annum through our revenue-sharing model. Revenue scales based on patient volume and engagement. There's no investment or risk involved — it's an additional revenue stream on top of improved patient outcomes.</p>
+                <!-- TODO: add more specific revenue tiers -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Q6 -->
+          <div class="faq-item" data-audience="clinic">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3-6" id="faq-btn-3-6">
+              <span>Do you provide an in-clinic therapist?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-3-6" role="region" aria-labelledby="faq-btn-3-6" hidden>
+              <div class="faq-answer-inner">
+                <p>Yes, as part of our partnership, Ekyamm provides a free in-clinic therapist to support your patients. This therapist works alongside your medical team to ensure coordinated care between physical treatment and emotional well-being.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q7 -->
+          <div class="faq-item" data-audience="clinic">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3-7" id="faq-btn-3-7">
+              <span>How does Ekyamm improve clinical outcomes?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-3-7" role="region" aria-labelledby="faq-btn-3-7" hidden>
+              <div class="faq-answer-inner">
+                <p>In a study of 2,247 women, patients who received integrated emotional support through Ekyamm showed significantly higher success rates: 43% vs 28% in the first cycle, and 52% vs 23% in the second cycle. Emotional well-being is directly linked to treatment outcomes, and Ekyamm provides this missing piece of holistic care.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── Category 4: Clinical & Treatment ── -->
+    <section class="faq-category reveal" data-audience="patient" id="cat-clinical">
+      <div class="container">
+        <div class="faq-category-header">
+          <div class="faq-category-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+            </svg>
+          </div>
+          <div>
+            <h2>Clinical & Treatment</h2>
+            <p>Evidence-based information about our approach to care</p>
+          </div>
+        </div>
+
+        <div class="faq-list" role="region">
+          <!-- Q1 -->
+          <div class="faq-item" data-audience="patient">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4-1" id="faq-btn-4-1">
+              <span>What kind of emotional support does Ekyamm provide during IVF?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-4-1" role="region" aria-labelledby="faq-btn-4-1" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm provides personalised emotional support tailored to your stage in the IVF process. This includes stress management techniques, guided relaxation exercises, daily emotional check-ins, and coping strategies designed specifically for the challenges of fertility treatment.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item" data-audience="patient">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4-2" id="faq-btn-4-2">
+              <span>Is the support evidence-based?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-4-2" role="region" aria-labelledby="faq-btn-4-2" hidden>
+              <div class="faq-answer-inner">
+                <p>Absolutely. Ekyamm's approach is grounded in clinical research. A study involving 2,247 women demonstrated significantly improved treatment success rates when emotional well-being support was integrated into fertility care. Our programs are designed by qualified mental health professionals and fertility specialists.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item" data-audience="patient">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4-3" id="faq-btn-4-3">
+              <span>Can Ekyamm replace in-person therapy?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-4-3" role="region" aria-labelledby="faq-btn-4-3" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm is designed to complement, not replace, in-person therapy. It provides daily emotional support and structured exercises between clinical visits. If you're experiencing significant mental health challenges, we always recommend working with a qualified therapist in addition to using the app.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item" data-audience="patient">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4-4" id="faq-btn-4-4">
+              <span>What are the success rate improvements?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-4-4" role="region" aria-labelledby="faq-btn-4-4" hidden>
+              <div class="faq-answer-inner">
+                <p>Based on clinical data from 2,247 women: patients with integrated emotional support showed a 43% success rate in the first cycle compared to 28% without support, and a 52% success rate in the second cycle compared to 23%. These results demonstrate the significant impact of mind-body-emotional balance on fertility treatment outcomes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── Category 5: Pricing & Insurance ── -->
+    <section class="faq-category reveal" data-audience="all" id="cat-pricing">
+      <div class="container">
+        <div class="faq-category-header">
+          <div class="faq-category-icon icon-coral">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <div>
+            <h2>Pricing & Insurance</h2>
+            <p>Cost, subscription, and payment details</p>
+          </div>
+        </div>
+
+        <div class="faq-list" role="region">
+          <!-- Q1 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5-1" id="faq-btn-5-1">
+              <span>Is Ekyamm free for patients?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-5-1" role="region" aria-labelledby="faq-btn-5-1" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm's pricing depends on the partnership model with your clinic. In many cases, the emotional well-being support is included as part of your treatment plan. Please check with your fertility clinic for specific pricing details.</p>
+                <!-- TODO: clarify exact patient pricing model -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5-2" id="faq-btn-5-2">
+              <span>What are the subscription plans?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-5-2" role="region" aria-labelledby="faq-btn-5-2" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm offers flexible plans tailored to different stages of the fertility journey. Your clinic will help you understand which plan best fits your treatment timeline and needs.</p>
+                <!-- TODO: add specific plan details and pricing -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5-3" id="faq-btn-5-3">
+              <span>Does insurance cover Ekyamm?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-5-3" role="region" aria-labelledby="faq-btn-5-3" hidden>
+              <div class="faq-answer-inner">
+                <p>Insurance coverage varies by provider and plan. We recommend checking with your insurance provider to see if mental wellness support as part of fertility treatment is covered under your policy.</p>
+                <!-- TODO: update with insurance partner details if applicable -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5-4" id="faq-btn-5-4">
+              <span>Are there any hidden fees?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-5-4" role="region" aria-labelledby="faq-btn-5-4" hidden>
+              <div class="faq-answer-inner">
+                <p>No. Ekyamm believes in transparent pricing. For clinics, the partnership is completely free — zero cost and zero infrastructure. For patients, all costs are clearly communicated upfront through your clinic.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── Category 6: Privacy & Security ── -->
+    <section class="faq-category reveal" data-audience="all" id="cat-privacy">
+      <div class="container">
+        <div class="faq-category-header">
+          <div class="faq-category-icon icon-deep">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <div>
+            <h2>Privacy & Security</h2>
+            <p>How we protect your data and ensure compliance</p>
+          </div>
+        </div>
+
+        <div class="faq-list" role="region">
+          <!-- Q1 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6-1" id="faq-btn-6-1">
+              <span>How is my data protected?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-6-1" role="region" aria-labelledby="faq-btn-6-1" hidden>
+              <div class="faq-answer-inner">
+                <p>Ekyamm uses AES-256 encryption — the same standard used by banks and government agencies — to protect all your personal and health data. Your information is encrypted both in transit and at rest, ensuring maximum security at every stage.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6-2" id="faq-btn-6-2">
+              <span>Is my information shared with my clinic?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-6-2" role="region" aria-labelledby="faq-btn-6-2" hidden>
+              <div class="faq-answer-inner">
+                <p>Only anonymised, aggregate progress reports are shared with your care team, and only with your explicit consent. Your private journal entries, personal reflections, and detailed mood data remain confidential and are never shared without your permission.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6-3" id="faq-btn-6-3">
+              <span>What encryption standards does Ekyamm use?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-6-3" role="region" aria-labelledby="faq-btn-6-3" hidden>
+              <div class="faq-answer-inner">
+                <p>We employ AES-256 encryption for all data storage and SSL/TLS protocols for all data transmission. These are industry-leading standards that ensure your sensitive health information is protected against unauthorised access at all times.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6-4" id="faq-btn-6-4">
+              <span>Is Ekyamm compliant with data protection laws?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-6-4" role="region" aria-labelledby="faq-btn-6-4" hidden>
+              <div class="faq-answer-inner">
+                <p>Yes. Ekyamm is fully compliant with applicable data protection regulations including India's Digital Personal Data Protection Act. We follow strict data handling protocols and regularly audit our systems to maintain the highest standards of privacy and security.</p>
+                <!-- TODO: add specific compliance certifications -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="faq-item" data-audience="all">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6-5" id="faq-btn-6-5">
+              <span>Can I delete my data?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-6-5" role="region" aria-labelledby="faq-btn-6-5" hidden>
+              <div class="faq-answer-inner">
+                <p>Yes, you have full control over your data. You can request deletion of your personal data at any time through the app settings or by contacting us at <a href="mailto:partnerships@ekyamm.com">partnerships@ekyamm.com</a>. Upon request, we will permanently delete your data in accordance with our privacy policy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- .faq-sections -->
+
+
+  <!-- No Results Message -->
+  <div class="faq-no-results container" id="noResults">
+    <svg class="faq-no-results-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="M8 11h6"/></svg>
+    <h3>No results found</h3>
+    <p>Try a different search term or browse all categories above.</p>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       CTA SECTION
+       ═══════════════════════════════════════ -->
+  <section class="faq-cta reveal">
+    <div class="container">
+      <div class="faq-cta-card">
+        <h2>Still have questions?</h2>
+        <p>Our team is here to help. Reach out and we'll get back to you within 24 hours.</p>
+        <div class="faq-cta-actions">
+          <a href="mailto:partnerships@ekyamm.com" class="btn btn-primary btn-lg">Email Us</a>
+          <a href="https://api.whatsapp.com/send/?phone=9920934198&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-bg"></div>
+    <div class="footer-overlay"></div>
+
+    <div class="container footer-content">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="footer-logo-text">ekyamm</span>
+          </div>
+          <p>The zero-cost clinical partner that integrates expert psychological care into your fertility treatment plan.</p>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              Navi Mumbai, Maharashtra, India
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+              <a href="https://api.whatsapp.com/send/?phone=9920934198&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+91 99209 34198</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              partnerships@ekyamm.com
+            </li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="../EKYAMM/index.html">Home</a></li>
+            <li><a href="../EKYAMM/mh-practitioner.html">MH Practitioner</a></li>
+            <li><a href="../EKYAMM/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="index.html">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Radicle Minds India Private Limited. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="../EKYAMM/privacy-policy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
